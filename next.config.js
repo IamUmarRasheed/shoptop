@@ -4,9 +4,9 @@ const nextConfig = {
     domains: [
       "https://full-stack-ecommerce-clothing-web.vercel.app",
       "full-stack-ecommerce-clothing-web.vercel.app",
+      "cdn.sanity.io",
     ],
   },
-  
 };
 
 module.exports = nextConfig

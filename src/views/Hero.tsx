@@ -2,11 +2,13 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import Image from "next/image";
+import Wrapper from "@/components/Wrapper";
 
 export default function Hero() {
   return (
     <section className="w-full">
-      <div className="max-w-[1200px] grid grid-cols-2 mx-auto my-14 ">
+      <Wrapper>
+      <div className="grid grid-cols-2  ">
         <div className="">
           <h4 className=" bg-[#E1EDFF] inline-block py-2 px-4 rounded-md text-[#0000FF] text-lg font-medium mb-12 mt-5">
             Sale 70%{" "}
@@ -59,6 +61,7 @@ export default function Hero() {
           ></Image>
         </div>
       </div>
+      </Wrapper>
     </section>
   );
 }
