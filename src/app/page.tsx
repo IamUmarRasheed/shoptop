@@ -7,8 +7,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Promotions/>
-      <Products/>
+      <Promotions />
+
+      <Products />
     </>
   );
 }
